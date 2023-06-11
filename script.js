@@ -11,6 +11,21 @@ wonText = resultBox.querySelector("won-text")
 replayBtn = resultBox.querySelector("btn");
 
 window.onload = {} => {
-    // make sure all the boxes in the board are clickable
+   // make sure all the boxes in the board are clickable
+   for (let i = 0; i < allBox.length; i++ ){
+       allBox[i].setAttribute("onclick"),"clickedBox(this)");
+   }
+}
+
+selectBtnX.oneclick = ()==> {
+    selectBox.classList.add("hide");
+    playBoard.classList.add("show");
+    players.setAttribute("class", "players active player");
+
 
 }
+
+
+let playerXIcon = "fas fa-times",playerOIcon = "far fa-circle", playerSign = "X", runBot = true;
+
+// user interaction with the board
