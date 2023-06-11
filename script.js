@@ -7,3 +7,10 @@ players = document.querySelector(".players")
 allBox = document.querySelectorAll("section span")
 
 resultBox = document.querySelector(".result-box")
+wonText = resultBox.querySelector("won-text")
+replayBtn = resultBox.querySelector("btn");
+
+window.onload = {} => {
+    // make sure all the boxes in the board are clickable
+
+}
