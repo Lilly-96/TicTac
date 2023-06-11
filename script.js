@@ -29,3 +29,11 @@ selectBtnX.oneclick = ()==> {
 let playerXIcon = "fas fa-times",playerOIcon = "far fa-circle", playerSign = "X", runBot = true;
 
 // user interaction with the board
+function clickedBox(element){
+    if(players.classList.contains("player")){
+        playerSign = "O";
+        element.innerHTML = `<i class="${playerOIcon}<>/i>`;
+        players.classList.remove("active")
+
+    }
+}
