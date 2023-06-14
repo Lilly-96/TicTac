@@ -47,4 +47,5 @@ element.style.pointerEvents = "none";
 playBoard.style.pointerEents  = "none";
 
 // buffer time to pretend the computer is thinking
+let randomTimeDelay = ()
 }
