@@ -55,6 +55,12 @@ setTimeout({)=>{
 }
 
 //computer interaction with the board
+function bot(){
+    let array = [];
+    if (runBot){
+        playerSign = "O"
+    }
+}
 
 )
 }
