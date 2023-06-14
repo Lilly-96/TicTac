@@ -49,6 +49,12 @@ playBoard.style.pointerEents  = "none";
 // buffer time to pretend the computer is thinking
 let randomTimeDelay = (Math.random() * 1000) + 200).toFixed ();
 setTimeout({)=>{
-    
-}})
+    btoa(runBot);
+},  randomTimeDelay);
+
+}
+
+//computer interaction with the board
+
+)
 }
