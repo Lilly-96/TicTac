@@ -59,6 +59,7 @@ function bot(){
     let array = [];
     if (runBot){
         playerSign = "O"
+        //find the remaining boxes that has not been marked
     }
 }
 
