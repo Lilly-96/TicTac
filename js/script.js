@@ -81,9 +81,10 @@ function bot(){
                 allBox[randomBox].setAttribute("id",playerSign);
 
              }
-             selectWinner();
-             
+             selectWinner();     
         }
+        allBox[randomBox].style.pointerEvents = "none";
+        playBoard.style.pointerEvents = "auto";
     }
 }
 
