@@ -85,6 +85,7 @@ function bot(){
         }
         allBox[randomBox].style.pointerEvents = "none";
         playBoard.style.pointerEvents = "auto";
+        playerSign ="X";
     }
 }
 
