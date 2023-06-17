@@ -96,6 +96,9 @@ function getIDVal(classname){
 
 // check 3 titles to see if they are the same sign 
 function checkIdSign(val1,val2,val3, sign){
+    if (getIDVal(val1) == sign && getIDVal(val2) == sign && getIDVal(val3) == sign){
+        return true;
+    }
 
 }
 )
