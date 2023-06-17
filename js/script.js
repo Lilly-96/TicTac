@@ -66,6 +66,7 @@ function bot(){
             }
         }
         // get random box from remaining tiles
+        let randomBox = array[Math.floor(Math.random() * array.length)];
     }
 }
 
