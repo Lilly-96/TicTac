@@ -91,7 +91,12 @@ function bot(){
 
 // get thte sign of a certain box
 function getIDVal(classname){
-    return document.querySelector(".box")
+    return document.querySelector(".box" + classname). id;
+}
+
+// check 3 titles to see if they are the same sign 
+function checkIdSign(val1,val2,val3, sign){
+
 }
 )
 }
