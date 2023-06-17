@@ -99,6 +99,7 @@ function checkIdSign(val1,val2,val3, sign){
     if (getIDVal(val1) == sign && getIDVal(val2) == sign && getIDVal(val3) == sign){
         return true;
     }
+    return false;
 
 }
 )
