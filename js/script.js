@@ -70,6 +70,8 @@ function bot(){
         if (array.length >0){
             if(playerOIcon.classList.contains("player")){
                 playerSign = "X";
+                allBox[randomBox].innerHTML = `<i class="${playerCIcon}"></i>`;
+                allBox[randomBox].setAttribute("id",playerSign);
 
             }
         }
