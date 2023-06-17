@@ -72,8 +72,17 @@ function bot(){
                 playerSign = "X";
                 allBox[randomBox].innerHTML = `<i class="${playerCIcon}"></i>`;
                 allBox[randomBox].setAttribute("id",playerSign);
+                players.classList.add("active");
 
-            }
+             }
+             else{
+                allBox[randomBox].innerHTML = `<i class=${playerOIcon} "></i>`;
+                playerOIcon.classList.remove("active");
+                allBox[randomBox].setAttribute("id",playerSign);
+
+             }
+             selectWinner();
+             
         }
     }
 }
