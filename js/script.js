@@ -67,6 +67,12 @@ function bot(){
         }
         // get random box from remaining tiles
         let randomBox = array[Math.floor(Math.random() * array.length)];
+        if (array.length >0){
+            if(playerOIcon.classList.contains("player")){
+                playerSign = "X";
+
+            }
+        }
     }
 }
 
