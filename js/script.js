@@ -65,6 +65,7 @@ function bot(){
                 array.push(i);
             }
         }
+        // get random box from remaining tiles
     }
 }
 
