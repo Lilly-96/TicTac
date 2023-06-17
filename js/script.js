@@ -89,5 +89,9 @@ function bot(){
     }
 }
 
+// get thte sign of a certain box
+function getIDVal(classname){
+    return document.querySelector(".box")
+}
 )
 }
