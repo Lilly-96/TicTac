@@ -102,5 +102,5 @@ function checkIdSign(val1,val2,val3, sign){
     return false;
 
 }
-)
-}
+
+//check winner
