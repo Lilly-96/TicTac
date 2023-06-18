@@ -104,3 +104,6 @@ function checkIdSign(val1,val2,val3, sign){
 }
 
 //check winner
+function selectWinner(){
+    if(checkIdSign(1,2,3,playerSign) 
+}
