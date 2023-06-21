@@ -218,3 +218,22 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.btn button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border: none;
+    background: #56baed;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+@media (max-width:768px) {
+    .body {
+        background: #009688;
+    }
+}
