@@ -5,3 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    color: #fff;
+    background: #56baed;
+}
+
+body {
+    background: #56baed;
+}
