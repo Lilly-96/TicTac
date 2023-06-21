@@ -31,3 +31,21 @@ body {
     max-width: 400px;
     width: 100%;
 }
+
+.select-box.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.select-box header {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.select-box .title {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 20px 0;
+}
