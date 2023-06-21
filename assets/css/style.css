@@ -93,3 +93,30 @@ body {
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
 }
+
+.play-board .details {
+    padding: 7px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.play-board .players {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.players span {
+    position: relative;
+    z-index: 2;
+    color: #56baed;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    cursor: default;
+    user-select: none;
+    transition: all 0.3 ease;
+}
