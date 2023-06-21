@@ -54,3 +54,17 @@ body {
     display: flex;
     width: 100%;
 }
+
+.options button {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+    border: none;
+    background: #56baed;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
