@@ -120,3 +120,15 @@ body {
     user-select: none;
     transition: all 0.3 ease;
 }
+
+.players.active span:first-child {
+    color: #fff;
+}
+
+.players.active span:last-child {
+    color: #56baed;
+}
+
+.players span:first-child {
+    color: #fff;
+}
