@@ -68,3 +68,28 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+.options button:hover,
+.btn button:hover {
+    transform: scale(0.96);
+}
+
+.options button.playerX {
+    margin-right: 5px;
+}
+
+.options button.playerO {
+    margin-left: 5px;
+}
+
+.play-board {
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
+}
+
+.play-board.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
