@@ -1,8 +1,8 @@
-# **WORLD WEATHER**
+# **TIC TAC GAME**
 ​
 ![Live Project Mockup](assets/images/ami-i-respnsive.png)
 ​
-[Link to Live Project](https://codeconnoisseur74.github.io/world-weather-p2/)
+[Link to Live Project] (https://127.0.0.1:5500/index.html)
 ​
 ## Table of Contents
 - [Introduction](#introduction)
@@ -27,39 +27,24 @@
   - [Other](#other)
 ​
 ## Introduction
-World Weather is a weather website where the user can search for the current weather by city. The background image correspods with a random image of that city is fetched from unsplash.com. Current weather information includes: temprature in celcius, cloud status, humidity and windspeed. This weather data is fetched from openweatherapp.org. The site allows the user to quickly access current weather information of any major city worldwide whilst a corresponding image is provided to the user in realtime. The site is responsive to any size desktop, tablet or smartphone device. 
+Tic tac toe is a well-known game found all over the world. I have chosen to design a pink game, you choose yourself whether to be X or O, I have made it possible to play against the computer. The site is responsive to any size desktop, tablet or smartphone device. 
 ​
  
-[The live project can be found here.]()
+
 ## UX
 ​
 ### User Stories
 ​
-| ID | As a... | I Want To Be Able To... | So That I Can...|
-| --- | --- | --- | --- |
-| 01 | As a traveler | quick access to weather in major cities | can quickly receive up to date weather forecasts for quick and easy travel planning. |
-| 02 | young user | access quick weather info | enjoying the random images that appear in realtime for major cities around the world I hope to visit one day. |
-| 03 | office manager| using the website on the plasma screen in the lounge of the office | esthetically pleasing image of local city with current weather conditions |
-​
-## Features
-​
-### Current Weather Data
-* User can search for current weather in any major city in the world. 
-* Weather data includes:  temprature in celcius, cloud status, humidity and windspeed.
+
 ​
 ​
-#### Random image of current city 
 ​
-* the city that is searched, will bring up a random image from unsplash. com along with the weather information corresponding with the city choice. 
+
 ​
-![Weather Home Page Search Results](assets/images/weather-home-london.png)
+
+
 ​
-#### Current Weather Data
-​
-* Current weather data is displayed showing: tempraturein celcius, cloud status, windspeed and humidity. 
-* Weather Data is current and a quick refresh of the browser updates the weather data for chosen city through the search option.
-​
-![Weather Home Page Search Results](assets/images/weather-home.png)
+
 ​
 ### Features Left to Implement
 ​
