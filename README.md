@@ -2,7 +2,12 @@
 ​
 ![Live Project Mockup](assets/images/ami-i-respnsive.png)
 ​
+<<<<<<< HEAD
 [Link to Live Project](https://127.0.0.1:5500/index.html)
+=======
+[Link to Live Project] (https://127.0.0.1:5500/index.html)
+​
+>>>>>>> 275f2da1ed82c589ccb337fd06fc9ae3044278c8
 ## Table of Contents
 - [Introduction](#introduction)
 - [UX](#ux)
@@ -29,11 +34,12 @@
 Tic tac toe is a well-known game found all over the world. I have chosen to design a pink game, you choose yourself whether to be X or O, I have made it possible to play against the computer. The site is responsive to any size desktop, tablet or smartphone device. 
 ​
  
-[The live project can be found here.]()
+
 ## UX
 ​
 ### User Stories
 ​
+<<<<<<< HEAD
 | ID | As a... | I Want To Be Able To... | So That I Can...|
 | --- | --- | --- | --- |
 | 01 | As a traveler | quick access to weather in major cities | can quickly receive up to date weather forecasts for quick and easy travel planning. |
@@ -47,6 +53,18 @@ Tic tac toe is a well-known game found all over the world. I have chosen to desi
 ​
 
 
+=======
+
+​
+​
+​
+
+​
+
+
+​
+
+>>>>>>> 275f2da1ed82c589ccb337fd06fc9ae3044278c8
 ​
 ### Features Left to Implement
 ​
